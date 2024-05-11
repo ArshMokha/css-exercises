@@ -40,8 +40,8 @@ body {
 }
 
 .sidebar {
-  width: 200px;
-  flex: 0 0 auto;
+  width: 300px;
+  flex: 0 0 300px;
   background: royalblue;
   box-sizing: border-box;
 }
@@ -57,20 +57,17 @@ body {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
-  overflow: hidden;
-  height: 225px;
   width: 300px;
-  flex: 0 0 auto;
   padding: 16px;
 }
 
 .sidebar ul {
   margin: 0;
-  padding: 8px;
+  padding: 16px;
+  list-style-type: none;
 }
 
 li {
-  list-style-type: none;
   margin-bottom: 16px;
 }
 
